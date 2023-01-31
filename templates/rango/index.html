@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html> {% load staticfiles %}
+<!-- New line -->
 Templates and Media Files 47
 <html>
   <head>
@@ -10,6 +11,10 @@ Templates and Media Files 47
       hey there partner! <br />
       <strong>{{ boldmessage }}</strong><br />
     </div>
-    <div><a href="/rango/about/">About</a><br /></div>
+    <div>
+      <a href="/rango/about/">About</a><br />
+      <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+      <!-- New line -->
+    </div>
   </body>
 </html>
