@@ -1,8 +1,6 @@
 from django.db import models
 from django.template.defaultfilters import slugify
 from django.contrib.auth.models import User
-from django.contrib.auth.models import User 
-from rango.models import UserProfile
 # Create your models here.
 
 
