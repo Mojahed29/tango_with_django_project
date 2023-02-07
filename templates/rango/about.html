@@ -13,8 +13,7 @@
     <h1>Rango says...</h1>
     <div>
       here is the about page.<br />
-      hey there partner! <br />
-      <strong>This tutorial has been put together by Mojahed Ahmed </strong><br />
+      <strong>{{ boldmessage }}</strong><br />
     </div>
     <div>
       <a href="/rango/about/">About</a><br />
@@ -22,4 +21,5 @@
       <!-- New line -->
     </div>
     <div><img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." /></div>
+    <p>Visits: {{ visits }}</p>
 {% endblock %}
